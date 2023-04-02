@@ -1,0 +1,24 @@
+@media screen and (max-width: 1000px) {
+    .advantages {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .advantages main {
+        width: 90% !important;
+        text-align: center;
+    }
+
+    .advantages main .advantage {
+        margin: 20px 0;
+    }
+    
+    .advantages img {
+        transform: translateX(0) ;
+        padding: 20px;
+    }
+
+    .advantages .advantage p {
+        width: 100%;
+    }
+}
